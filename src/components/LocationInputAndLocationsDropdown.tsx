@@ -44,7 +44,7 @@ export default function LocationInputAndLocationsDropdown({
   const options = {
     method: "GET",
     headers: {
-      "x-rapidapi-key": "3123955b89msh2d12bc5837d6e4dp16618cjsnd58f15612b6d",
+      "x-rapidapi-key": process.env.RAPID_API_KEY,
       "x-rapidapi-host": "sky-scrapper.p.rapidapi.com",
     },
   };
