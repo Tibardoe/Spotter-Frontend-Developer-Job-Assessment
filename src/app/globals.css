@@ -3,6 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --headerBg: #202124;
+  --linkHover: #3944573d;
+  --fadedHoverBg: #aecbfa55;
 }
 
 @theme inline {
@@ -10,6 +13,11 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-hoverAccent: #5f6368;
+  --color-headerBg: var(--headerBg);
+  --color-linkHover: var(--linkHover);
+  --color-textHover: #8ab4f8;
+  --color-fadedHoverBg: var(--fadedHoverBg);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +30,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
 }
