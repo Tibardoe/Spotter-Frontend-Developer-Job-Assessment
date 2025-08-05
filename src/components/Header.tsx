@@ -13,13 +13,13 @@ export default function Header() {
   const currentUrl = usePathname();
 
   return (
-    <div className="flex justify-between items-center fixed w-full py-3 px-6 bg-headerBg border-b border-white/30">
+    <div className="flex justify-between items-center fixed top-0 w-full py-3 px-6 bg-headerBg border-b border-white/30 z-50">
       {/* Left nav */}
       <div className="flex items-center gap-10">
         <div className="flex items-center gap-3">
           <button
             type="button"
-            className="hover:bg-hoverAccent p-2 rounded-full transition-all duration-300"
+            className="hover:bg-hoverAccent cursor-pointer p-2 rounded-full transition-all duration-300"
           >
             <IoMdMenu className="text-2xl" />
           </button>
@@ -51,21 +51,21 @@ export default function Header() {
       <div className="flex items-center gap-5">
         <button
           type="button"
-          className="hover:bg-hoverAccent p-2 rounded-full transition-all duration-300"
+          className="hover:bg-hoverAccent p-2 rounded-full transition-all duration-300 cursor-pointer"
         >
           <MdOutlineLightMode className="text-2xl" />
         </button>
 
         <button
           type="button"
-          className="hover:bg-hoverAccent p-2 rounded-full transition-all duration-300"
+          className="hover:bg-hoverAccent p-2 rounded-full transition-all duration-300 cursor-pointer"
         >
           <CgMenuGridO className="text-2xl" />
         </button>
 
         <button
           type="button"
-          className="w-10 h-10 rounded-full bg-green-800 flex items-center justify-center text-xl"
+          className="w-10 h-10 rounded-full bg-green-800 flex items-center justify-center text-xl cursor-pointer"
         >
           T
         </button>

@@ -6,6 +6,8 @@
   --headerBg: #202124;
   --linkHover: #3944573d;
   --fadedHoverBg: #aecbfa55;
+  --pageBg: #333537;
+  --dropdownBg: #1b1b1b;
 }
 
 @theme inline {
@@ -18,6 +20,9 @@
   --color-linkHover: var(--linkHover);
   --color-textHover: #8ab4f8;
   --color-fadedHoverBg: var(--fadedHoverBg);
+  --color-pageBg: var(--pageBg);
+  /* --color-inputContainerBg: var(--flightInputContainerBg); */
+  --color-dropdownBg: var(--dropdownBg);
 }
 
 @media (prefers-color-scheme: dark) {
